@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-salesautopilot\n"
+"POT-Creation-Date: 2014-03-31 09:51+0100\n"
+"PO-Revision-Date: 2014-04-01 23:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:31
+#: classes/class-ss-wc-integration-salesautopilot.php:396
+msgid "SalesAutopilot"
+msgstr "SalesAutopilot"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:32
+msgid "SalesAutpilot - Put Your Sales on Autopilot ...once and for all"
+msgstr "SalesAutoPilot - Önműködő értékesítés egyszer, s mindenkorra"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:79
+#, php-format
+msgid ""
+"SalesAutopilot error: Please enter your api username and password <a href="
+"\"%s\">here</a>"
+msgstr ""
+"Hiba: írja be az API felhasználónevét és jelszavát <a href=\"%s\">ide</a>"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:169
+msgid "Select a list..."
+msgstr "Válasszon ki egy listát"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:169
+msgid "Enter your API username/password and save to see your lists"
+msgstr "Írja be az API felhasználónevét és jelszavát, hogy láthassa a listáit"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:170
+msgid "Select a form..."
+msgstr "Válasszon ki egy űrlapot"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:170
+msgid "Select a list in order to see its order forms."
+msgstr "Válasszon ki egy listát, hogy láthassa a hozzá tartozó űrlapokat"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:174
+msgid "Enable/Disable"
+msgstr "Engedélyezés/Tiltás"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:175
+msgid "Enable SalesAutopilot"
+msgstr "SalesAutopilot engedélyezése"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:181
+msgid "API Username"
+msgstr "API felhasználónév"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:183
+msgid ""
+"SalesAutopilot API username. <a href=\"http://www.salesautopilot.com/"
+"knowledge-base/api/api-key-pairs\" target=\"_blank\">How to get your API "
+"username/password</a>"
+msgstr ""
+"SalesAutopilot API felhasználónév. <a href=\"http://www.marketingszoftverek."
+"hu/tudasbazis/osszetett-rendszerek-keszitese/api-kulcsparok-kezelese\" "
+"target=\"_blank\">Itt találja az API felhasználónevét és jelszavát</a>"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:187
+msgid "API Password"
+msgstr "API jelszó"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:189
+msgid ""
+"SalesAutopilot API password. <a href=\"http://www.salesautopilot.com/"
+"knowledge-base/api/api-key-pairs\" target=\"_blank\">How to get your API "
+"username/password</a>"
+msgstr ""
+"SalesAutopilot API jelszó. <a href=\"http://www.marketingszoftverek.hu/"
+"tudasbazis/osszetett-rendszerek-keszitese/api-kulcsparok-kezelese\" target="
+"\"_blank\">Itt találja az API felhasználónevét és jelszavát</a>"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:193
+msgid "eCommerce List"
+msgstr "Megrendelés lista"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:195
+msgid "Orders will be added to this eCommerce list."
+msgstr "A megrendelések a kiválasztott megrendelés listába kerülnek rögzítésre"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:200
+msgid "Order Form"
+msgstr "Megrendelő űrlap"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:202
+msgid "Orders will be added through this eCommerce form."
+msgstr "A megrendelések ezen az űrlapon keresztül kerülnek rögzítésre."
+
+#: classes/class-ss-wc-integration-salesautopilot.php:252
+#, php-format
+msgid "Unable to load lists from SalesAutopilot: (%s) %s"
+msgstr ""
+"Nem lehetett betölteni a listákat a SalesAutopilot rendszerből: (%s) %s"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:279
+#, php-format
+msgid "Unable to load forms from SalesAutopilot: (%s) %s"
+msgstr ""
+"Nem lehetett betölteni az űrlapokat a SalesAutopilot rendszerből: (%s) %s"
+
+#: classes/class-ss-wc-integration-salesautopilot.php:397
+msgid ""
+"Enter your SalesAutopilot settings below to WooCommerce could send order to "
+"your eCommerce list."
+msgstr ""
+"Adja meg a SalesAutopilot hozzáférését és paramétereit, hogy a WooCommerce "
+"át tudja küldeni a beérkező megrendeléseket."
+
+#: woocommerce-salesautopilot.php:64
+msgid "Settings"
+msgstr "Beállítások"
