@@ -330,10 +330,17 @@ class SS_WC_Integration_SalesAutopilot extends WC_Integration {
 		$data['netshippingcost']		= round($order_details->get_total_shipping(),2);
 		$data['grossshippingcost']		= round($order_details->get_total_shipping(),2) + round($order_details->get_shipping_tax(),2);
 		
+		// Add fees like COD
+		$extraFees = $order_details->get_fees();
+		foreach ($extraFees as $feeData) {
+			$data['netshippingcost'] += round($feeData['line_total'],2);
+			$data['grossshippingcost'] += round($feeData['line_total'],2) + round($feeData['line_tax'],2);
+		}
+		
 		foreach ( $order_details->get_shipping_methods() as $shipping_item_id => $shipping_item ) {
 			$data['shipping_method'] .= $shipping_item['name'];
 		}
-		
+		error_log(var_export($data,1),3,'/var/www/ugyfelek.emesz.hu/htdocs/wordpress/tmp/woo-cod.log');
 		// Add products to the API call
 		$products = array();
 		foreach($order_details->get_items() as $item_id => $item) {
