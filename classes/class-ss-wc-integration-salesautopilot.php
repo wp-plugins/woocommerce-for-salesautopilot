@@ -340,7 +340,6 @@ class SS_WC_Integration_SalesAutopilot extends WC_Integration {
 		foreach ( $order_details->get_shipping_methods() as $shipping_item_id => $shipping_item ) {
 			$data['shipping_method'] .= $shipping_item['name'];
 		}
-		error_log(var_export($data,1),3,'/var/www/ugyfelek.emesz.hu/htdocs/wordpress/tmp/woo-cod.log');
 		// Add products to the API call
 		$products = array();
 		foreach($order_details->get_items() as $item_id => $item) {
