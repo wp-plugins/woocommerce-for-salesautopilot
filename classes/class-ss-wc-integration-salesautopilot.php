@@ -310,8 +310,13 @@ class SS_WC_Integration_SalesAutopilot extends WC_Integration {
 		$data = array();
 		$data['order_id']			= $order_details->id;
 		$data['email'] 				= $order_details->billing_email;
-		$data['mssys_firstname'] 	= $order_details->billing_first_name;
-		$data['mssys_lastname']	 	= $order_details->billing_last_name;
+		if (defined(WPLANG) && WPLANG == 'hu_HU') {
+			$data['mssys_lastname'] 	= $order_details->billing_first_name;
+			$data['mssys_firstname'] 	= $order_details->billing_last_name;
+		} else {
+			$data['mssys_firstname'] 	= $order_details->billing_first_name;
+			$data['mssys_lastname']	 	= $order_details->billing_last_name;
+		}
 		$data['mssys_phone']	 	= $order_details->billing_phone;
 		$data['payment_method'] 	= $order_details->payment_method_title;
 		$data['currency'] 			= $order_details->order_currency;

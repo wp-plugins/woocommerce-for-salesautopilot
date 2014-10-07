@@ -5,7 +5,7 @@
  * Description: WooCommerce SalesAutopilot provides integration with SalesAutopilot eCommerce functions.
  * Author: Gyorgy Khauth
  * Author URI: http://salesautopilot.com
- * Version: 1.0.1
+ * Version: 1.0.3
  * Text Domain: ss_wc_salesautopilot
  * Domain Path: languages
  * 

@@ -50,3 +50,6 @@ You've done the settings. From now when an order takes place in your WooCommerce
 
 = 1.0.2 =
 * Tested with Wordpress 4
+
+= 1.0.3 =
+* Fix Hungarian firstname lastname mixing Woocommerce bug
