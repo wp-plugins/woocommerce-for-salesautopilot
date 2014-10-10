@@ -310,7 +310,7 @@ class SS_WC_Integration_SalesAutopilot extends WC_Integration {
 		$data = array();
 		$data['order_id']			= $order_details->id;
 		$data['email'] 				= $order_details->billing_email;
-		if (defined(WPLANG) && WPLANG == 'hu_HU') {
+		if ($GLOBALS['locale'] == 'hu_HU') {
 			$data['mssys_lastname'] 	= $order_details->billing_first_name;
 			$data['mssys_firstname'] 	= $order_details->billing_last_name;
 		} else {
