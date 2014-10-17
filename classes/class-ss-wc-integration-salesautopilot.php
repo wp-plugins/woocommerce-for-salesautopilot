@@ -387,7 +387,8 @@ class SS_WC_Integration_SalesAutopilot extends WC_Integration {
 				$data['mssys_coupon_discount_amount_brutto'] = $data['mssys_coupon_discount_amount_netto'];
 			}
 		}
-		
+		$data['mssys_integration_type'] = 'woocommerce';
+
 		self::log( 'Calling SalesAutopilot API with the following parameters: ' .
 			'list id=' . $listid .
 			', vars=' . print_r( $data, true )

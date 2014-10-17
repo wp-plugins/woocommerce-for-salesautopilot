@@ -53,3 +53,6 @@ You've done the settings. From now when an order takes place in your WooCommerce
 
 = 1.0.3 =
 * Fix Hungarian firstname lastname mixing Woocommerce bug
+
+= 1.0.4 =
+* Add integration type to differentiate from other integrations.
