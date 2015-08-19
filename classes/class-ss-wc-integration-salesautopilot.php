@@ -334,6 +334,7 @@ class SS_WC_Integration_SalesAutopilot extends WC_Integration {
 		$data['mssys_postal_address']	= $order_details->shipping_address_1.' '.$order_details->shipping_address_2;
 		$data['netshippingcost']		= round($order_details->get_total_shipping(),2);
 		$data['grossshippingcost']		= round($order_details->get_total_shipping(),2) + round($order_details->get_shipping_tax(),2);
+		$data['mssys_comment']			= $order_details->order_comments;
 		
 		// Add fees like COD
 		$extraFees = $order_details->get_fees();
